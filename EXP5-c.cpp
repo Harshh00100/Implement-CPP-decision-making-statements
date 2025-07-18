@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
     int choice;
-    cout<<"enter day no. 1-7 of week \n" ;
+    cout<<"enter day no. 1-7 of week \n" ;//menu
     cout<<"Enter your choice: ";
     cin >> choice;
-    switch(choice) {
+    switch(choice) { //switch case
         case 1:
         cout<<"The day is Monday ";
         break;
@@ -29,6 +29,6 @@ int main() {
         cout<<"The day is Sunday ";
         break;
         default:
-        cout<<"INVALID CHOICE!!!!";
+        cout<<"INVALID CHOICE!!!!";//default statement
     }
 }
