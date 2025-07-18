@@ -1,16 +1,19 @@
+//Harsh kumar
+//prn 24070123146
+//B3
 #include <iostream>
 using namespace std;
 int main()
 {
   int a,b,c;
-  cout << "Enter first Number : ";
+  cout << "Enter first Number : ";//input for numbers
   cin >> a;
   cout << "Enter second Number : ";
   cin >> b;
   cout << "Enter third Number : ";
   cin >> c;
   if(a>b){
-      if(a>c){
+      if(a>c){//nested if
            cout << "1st Variable " << a << " is largest" << endl;
       }
   }
