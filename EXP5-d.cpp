@@ -5,19 +5,18 @@
 using namespace std;
 int main()
 {
-    int a, b ;
-    int c;
+    int a, b ,c ;//variables
     cout << "Enter first number: ";
     cin >> a;
     cout << "Enter second number: ";
     cin >> b;
-    cout << "Calculator Menu" <<"\n";
+    cout << "Calculator Menu" <<"\n"; //menu for calculator
     cout << "Enter 1 for Addition"<< "\n";
     cout << "Enter 2 for Subtraction" << "\n";
     cout << "Enter 3 for Multiplication" << "\n";
     cout << "Enter 4 for Division" << "\n";
     cin >> c;
-    switch(c) {
+    switch(c) { //switch case
         case 1:
             cout << "Result: " << a + b ;
             break;
@@ -34,7 +33,7 @@ int main()
                 cout << "not defined" << "\n";
             }
             break;
-        default:
+        default: //default statement
             cout << "Enter Valid option";
     }
     return 0;
