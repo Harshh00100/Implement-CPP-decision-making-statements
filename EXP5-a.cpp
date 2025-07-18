@@ -1,12 +1,15 @@
+//Harsh kumar
+//prn 24070123146
+//B3
 #include <iostream>
 using namespace std;
 int main() {
     int a;
     cout << "Enter a the number:  ";
-    cin >> a;
-    if (a > 0) {
+    cin >> a; //input for variable
+    if (a > 0) {//if condition fo +ve number
     if (a % 2 == 0) {
-        cout << "The number is even." ;
+        cout << "The number is even." ; //output
     }
     else  {
         cout << "The number is odd." ;
