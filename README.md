@@ -9,10 +9,24 @@ Checking number is weather Even or Odd
 
 The program starts with taking input of a integer in variable 'a'.Then it goes to the If statement ,if the condition matches then it goes to another if condition otherwise it shows the output whatever their is in if else statement is present.After going to another  if condition , if number is divisible by 2 the output display even otherwise it show odd.
 
+Algorithm:
+
+
  #Program 2:
  checking character is vowel or consonant 
 
  The program starts with taking input from user which is a charcter data types and checks it is vowel or consonant.Here I have checked for every vowel character as ASCII value of lowercase and uppercase alphabets are different. After matching to the suitable condition it gives the output.
+
+ Algorithm:
+ - Start
+- Declare a character variable a
+- Prompt user to "Enter the character"
+- Input the character into a
+- Check if a is any of: 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
+- If true → display "The character is a vowel"
+- Else → display "The character is a consonant"
+- End
+
 
  #Program 3:
  switch case
