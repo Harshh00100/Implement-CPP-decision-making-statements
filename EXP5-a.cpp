@@ -19,3 +19,8 @@ int main() {
     }
     return 0;
 }
+
+/* output:
+Enter a the number:  5
+The number is odd.
+*/
