@@ -39,6 +39,14 @@ Largest among three numbers
 
 The program starts with taking input for the three variable in integers form and checks it one by one variable throw nested if conditions after matching through all the condition it display the output which is the greatest number among the three number and that's how is concludes.
 
+Algorithm :
+- Start
+- Input three integers: a, b, c
+- Compare:
+- Display the largest value
+- End
+
+
 Conclusion:
 we have created different types of programs based on the decision making statement and got to know that why conditions are crucial for any kind of program.
 
