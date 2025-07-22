@@ -33,6 +33,16 @@ Basic calculator:
 
 The program is structured in this way that it take two input from the user and save it to the variable a & b respectively. Then a menu will appear for executing the particular operation on two numbers. After giving the choice it will switched to that particular case for performing the operation. after the operation it shows the output as per function.
 
+Algorithm:
+- Start
+- Input two numbers: a, b
+- Display operation menu
+- Input choice c
+- Use switch(c) to:
+- Add, subtract, multiply, or divide a and b
+- End
+
+
 #Program 5:
 Largest among three numbers
 
