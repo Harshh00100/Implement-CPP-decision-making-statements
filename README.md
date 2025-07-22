@@ -10,6 +10,15 @@ Checking number is weather Even or Odd
 The program starts with taking input of a integer in variable 'a'.Then it goes to the If statement ,if the condition matches then it goes to another if condition otherwise it shows the output whatever their is in if else statement is present.After going to another  if condition , if number is divisible by 2 the output display even otherwise it show odd.
 
 Algorithm:
+- Start
+- Declare integer variable a
+- Prompt user to enter a number
+- Input value into a
+- If a > 0, then:
+- If a % 2 == 0, display "The number is even"
+- Else, display "The number is odd"
+- Else, display "The number is negative"
+- End
 
 
  #Program 2:
