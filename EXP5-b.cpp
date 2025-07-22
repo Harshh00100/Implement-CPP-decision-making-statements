@@ -12,3 +12,8 @@ else{
 }
 return 0;
 }
+
+/* output:
+Enter the character: h
+The character is a consonant.
+    */
