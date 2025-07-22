@@ -38,3 +38,16 @@ int main()
     }
     return 0;
 }
+
+
+/* output :
+Enter first number: 4
+Enter second number: 3
+Calculator Menu
+Enter 1 for Addition
+Enter 2 for Subtraction
+Enter 3 for Multiplication
+Enter 4 for Division
+2
+Result: 1 
+    */
