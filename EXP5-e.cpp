@@ -31,3 +31,10 @@ int main()
   return 0;
 }
     
+
+/* output :
+Enter first Number : 55
+Enter second Number : 4
+Enter third Number : 33
+1st Variable 55 is largest
+*/
