@@ -15,10 +15,18 @@ The program starts with taking input of a integer in variable 'a'.Then it goes t
  The program starts with taking input from user which is a charcter data types and checks it is vowel or consonant.Here I have checked for every vowel character as ASCII value of lowercase and uppercase alphabets are different. After matching to the suitable condition it gives the output.
 
  #Program 3:
-Days using switch case
+ switch case
 
-The program starts with taking input of the choice from the user basically 1-7 other than this it shows the default message which is "Invalid choice".
-if user gives input between 1-7 then day of the respective choice will be printed using switch case. After execution of the program we have to add break statement so that program stops till that instance.
+This program takes a user input between 1 to 12 to select a month and displays its name using a switch statement. Each case matches a numeric input to a specific month from January to December. The break statements prevent fall-through by stopping execution after the correct output. If the input doesn’t match any month, the default case alerts the user with "INVALID CHOICE!!!!". This structure improves readability and makes handling fixed options efficient. It's a useful way to map numeric values to text-based responses interactively.
+
+Algorithm:
+- Start
+- Declare an integer variable choice
+- Display menu:
+- Read Input:
+- Use Switch Case on choice
+- Default case → Display "INVALID CHOICE!!!!"
+- End
 
 #Program 4:
 Basic calculator:
